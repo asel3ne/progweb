@@ -39,7 +39,8 @@ body{
 form{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 5px;
+    align-items: center;
 }
 
 .flex-card{
@@ -53,9 +54,38 @@ form{
     height: 40px;
     border: 2px solid gainsboro;
     border-radius: 5px;
-    padding-left: 10px;
+    padding: 5px;
 }
 
 .input-text::placeholder {
     color: gray;
+}
+
+.input-text:focus{
+    border-color:#0866ff;
+    outline: none;
+}
+
+.input-button{
+    width: 300px;
+    height: 40px;
+    background-color: #0866ff;
+    padding: 0px 135px;
+    cursor: pointer;
+    color:#f2f4f7;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+.input-criar{
+    height: 40px;
+    background-color: #42b72a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 0px 90px;
 }
